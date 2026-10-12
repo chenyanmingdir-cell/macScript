@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcarchive
+
+# Swift Package Manager / swift build
+.build/
+
+# 编译出来的命令行导出器（用 skill/macscript/scripts/build.sh 重新生成）
+skill/macscript/bin/
+
+# 生成的产物
+*.pdf
+!examples/**/*.pdf

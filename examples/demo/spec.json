@@ -1,0 +1,72 @@
+{
+  "title": "示例分镜 30s",
+  "teamName": "Demo",
+  "aspect": "16:9",
+  "columns": [
+    { "role": "order", "width": 78 },
+    { "role": "shotNumber", "width": 92 },
+    { "role": "frameImage", "width": 300 },
+    { "role": "shotSize", "width": 90 },
+    { "role": "duration", "width": 118 },
+    { "role": "content", "width": 432 },
+    { "role": "note", "title": "旁白", "width": 250 }
+  ],
+  "shots": [
+    {
+      "shotSize": "中景",
+      "duration": "4",
+      "content": "开场：镜头从门外推进，人物背身入画，画面留给环境一点呼吸。",
+      "note": "安静，别急着讲话。",
+      "frame": "帧/01_起幅.jpg"
+    },
+    {
+      "shotSize": "全景",
+      "duration": "3",
+      "content": "穿行：跟着人物走两步，光影一明一暗，把空间的层次交代清楚。",
+      "note": "同一镜内完成。",
+      "frame": "帧/02_穿行.jpg"
+    },
+    {
+      "shotSize": "近景",
+      "duration": "4",
+      "content": "收势：人物停住、半回身，手部有一个很小的习惯动作。",
+      "note": "今天先不讲道理。",
+      "frame": "帧/03_收势.jpg"
+    },
+    {
+      "shotSize": "左右分屏",
+      "duration": "4",
+      "content": "分屏建立：左屏人物、右屏产品与应用场景，中间留 4px 细缝。",
+      "note": "一针，一线，都急不得。",
+      "frame": "帧/04_分屏建立.jpg"
+    },
+    {
+      "shotSize": "左右分屏",
+      "duration": "4",
+      "content": "分屏展开：右屏缓慢横移，展示造型与细节的变化。",
+      "note": "",
+      "frame": "帧/05_穿搭展开.jpg"
+    },
+    {
+      "shotSize": "特写",
+      "duration": "4",
+      "content": "细节特写：材质、缝线、金属件，浅景深贴着拍，手持轻微浮动。",
+      "note": "东西用久了，会记得你。",
+      "frame": "帧/06_细节特写.jpg"
+    },
+    {
+      "shotSize": "近景",
+      "duration": "4",
+      "content": "回到单人：抬眼看向镜外，眼神停住，不要多余表情。",
+      "note": "这一次，留给自己。",
+      "frame": "帧/07_单人情绪.jpg"
+    },
+    {
+      "shotSize": "落版",
+      "duration": "3",
+      "content": "画面压暗，标识淡入，只留一次呼吸。",
+      "note": "（一声呼吸收尾）",
+      "frame": "帧/08_落版.jpg"
+    }
+  ]
+}
