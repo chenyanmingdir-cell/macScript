@@ -78,6 +78,12 @@ frame column. Column widths clamp to 72…520 and `minimumRowHeight` to 96…180
 
 **Two app behaviours that silently ruin a project's look:**
 
+Projects open by double-click, by dragging onto the Dock icon, or from
+项目 → 打开脚本… — the app declares the `macscript` type and handles the open
+event. A build made before that declaration existed only opens files through its
+own panel, so if double-clicking does nothing the user's installed app predates
+it and needs rebuilding.
+
 **Never hide the 排序 (`order`) column in a project the user will edit.** It looks
 empty, but every row's drag handle, insert (+) and delete (trash) buttons are
 drawn inside that column's cell. Setting `isVisible: false` removes the whole
